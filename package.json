@@ -1,8 +1,11 @@
 {
   "name": "python-arf",
-  "description": "Node.js wrapper around the Python package arf, which is a processor for Abu se Reporting Format (ARF) messages.",
+  "description": "Node.js wrapper around the Python package arf, which is a processor for Abuse Reporting Format (ARF) messages.",
   "version": "0.0.0",
   "author": "Nick Baugh <niftylettuce@gmail.com> (http://niftylettuce.com/)",
+  "ava": {
+    "verbose": true
+  },
   "bugs": {
     "url": "https://github.com/forwardemail/python-arf/issues",
     "email": "niftylettuce@gmail.com"
@@ -10,7 +13,13 @@
   "contributors": [
     "Nick Baugh <niftylettuce@gmail.com> (http://niftylettuce.com/)"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "is-buffer": "^2.0.4",
+    "is-valid-path": "^0.1.1",
+    "rev-hash": "^3.0.0",
+    "semver": "^7.3.2",
+    "shelljs": "^0.8.4"
+  },
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
@@ -34,12 +43,21 @@
   "keywords": [
     "abuse",
     "arf",
-    "f",
+    "email",
+    "emails",
+    "feedback",
     "format",
+    "formats",
+    "message",
+    "messages",
+    "parse",
+    "parser",
+    "parsing",
     "pip",
     "python",
     "report",
-    "reporting"
+    "reporting",
+    "wrapper"
   ],
   "license": "MIT",
   "main": "index.js",
