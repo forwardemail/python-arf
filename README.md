@@ -31,10 +31,7 @@
 2. Install the package [arf](https://github.com/danielsen/arf) ([not yet available in pip](https://github.com/danielsen/arf/issues/1)):
 
    ```sh
-   #
-   # NOTE: we cannot use `git clone https://github.com/danielsen/arf.git`
-   #       until <https://github.com/danielsen/arf/pull/3> is merged
-   git clone https://github.com/niftylettuce/arf.git
+   git clone https://github.com/danielsen/arf.git
    cd arf
    git checkout patch-1
    python3 setup.py install
