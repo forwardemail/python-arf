@@ -28,13 +28,10 @@
    python3 --version
    ```
 
-2. Install the package [arf](https://github.com/danielsen/arf) ([not yet available in pip](https://github.com/danielsen/arf/issues/1)):
+2. Install the package [arf](https://github.com/danielsen/arf):
 
    ```sh
-   git clone https://github.com/danielsen/arf.git
-   cd arf
-   git checkout patch-1
-   python3 setup.py install
+   pip3 install arf-mime
    ```
 
 
