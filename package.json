@@ -1,7 +1,7 @@
 {
   "name": "python-arf",
   "description": "Node.js wrapper around the Python package arf, which is a processor for Abuse Reporting Format (ARF) messages.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Nick Baugh <niftylettuce@gmail.com> (http://niftylettuce.com/)",
   "ava": {
     "verbose": true
