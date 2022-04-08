@@ -17,7 +17,7 @@
     "is-buffer": "^2.0.4",
     "is-valid-path": "^0.1.1",
     "rev-hash": "^3.0.0",
-    "semver": "^7.3.2",
+    "semver": "^7.3.5",
     "shelljs": "^0.8.4"
   },
   "devDependencies": {
